@@ -7,3 +7,20 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+p {
+  font-size: 18px;
+
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
