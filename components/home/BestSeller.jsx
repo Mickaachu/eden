@@ -5,22 +5,22 @@ import { Images } from "@/constants"
 
 function BestSeller() {
   return (
-    <div className="text-center py-10">
+    <div className="text-center py-20">
       <h2>Best Seller</h2>
       <p>Check out our best selling products</p>
-      <div>
+      <div className="w-3/4 m-auto">
         <Carousel>
-          <div>
-            <Image src={Images.placeholder} width={300} height={300}/>
+          <div className="" >
+            <Image src={Images.placeholder} alt="product1" width={300} />
           </div>
-          <div>
-            <Image src={Images.placeholder} width={300} height={300}/>
+          <div className="">
+            <Image src={Images.placeholder} alt="product1" width={300} />
           </div>
-          <div>
-            <Image src={Images.placeholder} width={300} height={300}/>
+          <div className="">
+            <Image src={Images.placeholder} alt="product1" width={300} />
           </div>
-          <div>
-            <Image src={Images.placeholder} width={300} height={300}/>
+          <div className="">
+            <Image src={Images.placeholder} alt="product1" width={300} />
           </div>
         </Carousel>
       </div>
